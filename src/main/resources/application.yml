@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: marche-conclu-main-gateway-api
+    name: main-gateway-api
   profiles:
     active: dev
   config:

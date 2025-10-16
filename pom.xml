@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.igdevx</groupId>
-	<artifactId>marche-conclu-main-gateway-api</artifactId>
+	<artifactId>main-gateway-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>marche-conclu-main-gateway-api</name>
+	<name>main-gateway-api</name>
 	<description>Main gateway API</description>
 	<url/>
 	<licenses>

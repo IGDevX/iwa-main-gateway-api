@@ -1,10 +1,10 @@
-package org.igdevx.marcheconclumaingatewayapi;
+package org.igdevx.maingatewayapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MarcheConcluMainGatewayApiApplicationTests {
+class MainGatewayApiApplicationTests {
 
 	@Test
 	void contextLoads() {
