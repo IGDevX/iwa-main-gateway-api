@@ -8,3 +8,10 @@ spring:
     active: dev
   config:
     import: "optional:configserver:"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
