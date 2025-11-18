@@ -8,6 +8,15 @@ spring:
     active: dev
   config:
     import: "optional:configserver:"
+  cloud:
+    config:
+      uri: http://config-server:8888
+      fail-fast: true
+      retry:
+        initial-interval: 2000
+        multiplier: 1.5
+        max-interval: 10000
+        max-attempts: 12
 
 eureka:
   client:
